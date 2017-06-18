@@ -30,3 +30,24 @@ header img {
   background-color: #870038;
   height: 21px;
  } 
+
+/* Nav
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#nav-elems {
+  max-width: 260px;
+  width: 100%;
+  height: 35px;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  background-color: #959ca2;
+}
+
+#nav-elems a{ 
+  background-color: #d8d2bc;
+ }
+
+#nav-elems a:hover { 
+  background-color: #870038;
+ }
