@@ -1,0 +1,32 @@
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+header img { 
+  position:absolute; 
+  z-index: 2;
+  margin-top: 16px;
+ }
+
+#header-bg-colour-top {   
+  background-color: #959ca2;
+  height: 53px; } 
+
+#header-bg-colour-middle-top { 
+  background-color: #d8d2bc;
+  height: 1px;
+ } 
+
+#header-bg-img { 
+  background-image: url("../images/header-bg.png");
+  height: 7px;
+  background-repeat: repeat-x;
+ }
+
+ #header-bg-colour-middle-bottom { 
+  background-color: #ba717e;
+  height: 1px;
+ } 
+
+#header-bg-colour-bottom { 
+  background-color: #870038;
+  height: 21px;
+ } 
