@@ -1,8 +1,8 @@
 
 header img { 
-  position:absolute; 
+  position: absolute; 
   z-index: 2;
-  margin-top: 16px;
+  top: 16px;
  }
 
 #header-bg-colour-top {   
@@ -33,6 +33,29 @@ header img {
   height: 21px;
  } 
 
+#contact-button { 
+  width: 120px;
+  height: 40px;
+  border: 2px solid #eee2c6;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  left: 550px;
+  top: 35px;
+  background-color: #003b65;
+  }
+
+ #contact-button a { 
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #contact-button a:hover { 
+    color: #959ca2;
+    text-decoration: none;
+  }
+
 /* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -40,38 +63,39 @@ nav {
   display: block;
   max-width: 260px;
   width: 100%;
+  position: relative;
+  z-index: 1;
+  top: -35px;
 }
 
 #nav-elems {
   max-width: 260px;
   width: 100%;
-  height: 35px;
   background-color: #959ca2;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
+  font-size: 14px;
 }
 
 #nav-elems a { 
   max-width: 260px;
   width: 100%;
-  height: 35px;
   background-color: #959ca2; 
   display: block; 
   text-decoration: none;
   color: #fff;
- }
+  text-indent: 10px;
+}
 
 #nav-elems a:hover {
   max-width: 260px;
   width: 100%;
-  height: 35px; 
   background-color: #003b65;
   display: block; 
   text-decoration: none;
  }
-
 
 /* Body
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -81,6 +105,7 @@ section {
   display: block;
   max-width: 518px;
   width: 100%;
+  padding: 0 !important;
  }
 
 #body-top { 
@@ -88,11 +113,42 @@ section {
   height: 35px;
   width: 100%;
   color: #fff;
+  text-align: center;;
  }
 
  #body-content { 
   width: 90%;
+  font-size: 14px !important;
+  margin: 10px 0 0 30px;
+  text-align: justify;
+  color: #003b65;
+ }
+
+ #body-content a{ 
+  color: #870038
+ }
+
+ .bigletter{
+    font-size: 20px;
  }
 
 
-  
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+footer { 
+  text-align: center;
+  font-size: 14px !important;
+  color: #959ca2;
+ }
+
+footer span { 
+  font-size: 12px !important;
+  display: block;
+ }
+
+
+footer a { 
+  color: #870038;
+  text-decoration: none;
+ }
