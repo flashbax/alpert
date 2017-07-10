@@ -1,48 +1,36 @@
 
-header img { 
-  position: absolute; 
-  z-index: 2;
-  top: 16px;
+
+/* Font Overrides
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1 { 
+  font-size: 20px !important;
+  line-height: 0 !important;
  }
 
-#header-bg-colour-top {   
-  background-color: #959ca2;
-  height: 53px; 
-  max-width: 780px;
-  width: 100%;
-} 
-
-#header-bg-colour-middle-top { 
-  background-color: #d8d2bc;
-  height: 1px;
- } 
+/* Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #header-bg-img { 
   background-image: url("../images/header-bg.png");
-  height: 7px;
+  height: 96px; /*-10 for padding*/
   background-repeat: repeat-x;
+  padding-top: 10px;
  }
 
- #header-bg-colour-middle-bottom { 
-  background-color: #ba717e;
-  height: 1px;
- } 
-
-#header-bg-colour-bottom { 
-  background-color: #870038;
-  height: 21px;
- } 
+ #logo {
+  margin-top: 10px;
+  width: 260px !important;
+  height: 67px !important;
+ }
 
 #contact-button { 
-  width: 120px;
-  height: 40px;
+  width: 120px !important;
+  height: 40px !important;
   border: 2px solid #eee2c6;
   text-align: center;
   font-weight: bold;
   font-size: 12px;
-  position: absolute;
-  left: 550px;
-  top: 35px;
   background-color: #003b65;
   }
 
@@ -58,30 +46,22 @@ header img {
 
 /* Nav
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-nav {
-  float: left; 
-  display: block;
-  max-width: 260px;
-  width: 100%;
-  position: relative;
-  z-index: 1;
-  top: -35px;
-}
+#nav { 
+   margin-left: 0px !important;
+ }
 
 #nav-elems {
-  max-width: 260px;
-  width: 100%;
+  width: 260px;
   background-color: #959ca2;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border: 1px solid #fff;
   font-size: 14px;
+
 }
 
-#nav-elems a { 
-  max-width: 260px;
-  width: 100%;
+#nav-elems a {  
   background-color: #959ca2; 
   display: block; 
   text-decoration: none;
@@ -90,8 +70,6 @@ nav {
 }
 
 #nav-elems a:hover {
-  max-width: 260px;
-  width: 100%;
   background-color: #003b65;
   display: block; 
   text-decoration: none;
@@ -101,27 +79,14 @@ nav {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 section { 
-  float: right;
   display: block;
-  max-width: 518px;
-  width: 100%;
-  padding: 0 !important;
- }
+}
 
-#body-top { 
-  background-color: #870038;
-  height: 35px;
-  width: 100%;
-  color: #fff;
-  text-align: center;;
- }
-
- #body-content { 
-  width: 90%;
+ #body-content {  
   font-size: 14px !important;
-  margin: 10px 0 0 30px;
   text-align: justify;
   color: #003b65;
+  margin-left: 0px !important;
  }
 
  #body-content a{ 
