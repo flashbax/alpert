@@ -3,10 +3,12 @@
 /* Font Overrides
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-h1 { 
+/*h1 { 
   font-size: 20px !important;
   line-height: 0 !important;
- }
+  margin-bottom: 0 !important;
+ }*/
+
 
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -16,13 +18,21 @@ h1 {
   height: 96px; /*-10 for padding*/
   background-repeat: repeat-x;
   padding-top: 10px;
- }
+  }
 
  #logo {
-  margin-top: 10px;
-  width: 260px !important;
-  height: 67px !important;
- }
+  margin-top: 9px;
+  max-width: 292px;
+  }
+
+#header-text { 
+  font-size: 17px !important;
+  font-weight: bold;
+  margin-top: 60px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Alegreya', serif;
+  }
 
 #contact-button { 
   width: 120px !important;
@@ -32,6 +42,8 @@ h1 {
   font-weight: bold;
   font-size: 12px;
   background-color: #003b65;
+  margin-top: 18px;
+  font-family: 'Alegreya', serif;
   }
 
  #contact-button a { 
@@ -48,7 +60,8 @@ h1 {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #nav { 
    margin-left: 0px !important;
- }
+   max-width: 292px;
+  }
 
 #nav-elems {
   width: 260px;
@@ -58,8 +71,8 @@ h1 {
   -webkit-box-sizing: border-box;
   border: 1px solid #fff;
   font-size: 14px;
-
-}
+  font-family: 'Alegreya', serif;
+  }
 
 #nav-elems a {  
   background-color: #959ca2; 
@@ -67,13 +80,13 @@ h1 {
   text-decoration: none;
   color: #fff;
   text-indent: 10px;
-}
+  }
 
 #nav-elems a:hover {
   background-color: #003b65;
   display: block; 
   text-decoration: none;
- }
+  }
 
 /* Body
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -87,6 +100,8 @@ section {
   text-align: justify;
   color: #003b65;
   margin-left: 0px !important;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 20px;
  }
 
  #body-content a{ 
@@ -105,6 +120,7 @@ footer {
   text-align: center;
   font-size: 14px !important;
   color: #959ca2;
+  font-family: 'Fjalla One', sans-serif;
  }
 
 footer span { 
