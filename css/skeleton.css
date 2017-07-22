@@ -407,28 +407,69 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (max-width: 550px) {
-  #header-text { 
-    color: #000 !important;
+
+  header{ 
+   text-align: center;
   }
 
-  #nav { 
+  #logo { 
+    background-image: url("../images/logo-mobile.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 100% !important;
+  }
+
+  #header-text { 
+    color: #870038 !important;
+    font-size: 25px !important;
+    padding-top: 35px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  footer a{  
+    font-size: 10px !important;
+   }
+
+}
+
+/* Larger than tablet */
+@media (max-width: 750px) {
+}
+/* Larger than desktop */
+@media (max-width: 1000px) {
+   .container { 
+    width: 100%;
+   }
+
+  #contact { 
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  nav { 
+    margin: 0 auto !important;   
+  }
+
+  #nav-elems { 
     text-align: center;
   }
 
   #contact-button { 
     text-align: center;
-  }
-
-  nav { 
     margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
   }
+
+   #body-content { 
+    padding: 0 20px;
+    margin: 0 auto !important;
+    width: 100% !important;
+    margin-left: 0px; 
+   }
+
 }
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
