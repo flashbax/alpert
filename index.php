@@ -40,7 +40,7 @@
           <div class="four columns" id="header-text">Welcome to Alpert Law Firm</div>
           <div class="four columns" id="contact">
             <div id="contact-button">
-              <a href="contact.html">
+              <a href="contact.php">
               CONTACT <br />
               Alpert Law Firm</a>
             </div>
@@ -49,39 +49,20 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <div class="row">
-          <div id="nav-elems"><a href="index.html">HOME</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="ourteam.html">OUR TEAM</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="practice-areas.html">PRACTICE AREAS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="decisions.html">DECISIONS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="newsletters.htl">NEWSLETTERS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="seminars.html">SEMINARS</a></div>
-        </div>
+        <?php include("/includes/nav.php"); ?>
     </div>
-     </nav>
+    </nav>
     <section>
     <div class="seven columns" id="body-content">
-        <p><span class="bigletter">S</span>ince 1971, Alpert Law Firm has been achieving excellent results for our clients in <a href="taxplanning.html">tax</a> and <a href="estateplanning.html">estate planning</a>, <a href="wealth.html">wealth preservation</a>, <a href="corporate.html">corporate and commercial</a> transactions, <a href="taxdispute.html">tax dispute resolution</a>, <a href="taxlitigation.html">tax litigation</a> and <a href="estateadmin.html">estate administration</a>. We act for a wide variety of clients ranging from individuals to large corporations.</p>
+        <p><span class="bigletter">S</span>ince 1971, Alpert Law Firm has been achieving excellent results for our clients in <a href="taxplanning.php">tax</a> and <a href="estateplanning.php">estate planning</a>, <a href="wealth.php">wealth preservation</a>, <a href="corporate.php">corporate and commercial</a> transactions, <a href="taxdispute.php">tax dispute resolution</a>, <a href="taxlitigation.php">tax litigation</a> and <a href="estateadmin.php">estate administration</a>. We act for a wide variety of clients ranging from individuals to large corporations.</p>
 
-        <p>We are the Tax Law Professionals with over 40 years experience in successfully resolving tax disputes and winning leading tax cases in court. Howard Alpert, C.S. is certified by the Law Society as a Certified Specialist (<a href="corporate.html">Corporate and Commercial Law</a>) and a Certified Specialist (<a href="estateadmin.html">Estates and Trusts Law</a>).</p>
+        <p>We are the Tax Law Professionals with over 40 years experience in successfully resolving tax disputes and winning leading tax cases in court. Howard Alpert, C.S. is certified by the Law Society as a Certified Specialist (<a href="corporate.php">Corporate and Commercial Law</a>) and a Certified Specialist (<a href="estateadmin.php">Estates and Trusts Law</a>).</p>
 
-        <p>Alpert Law Firm conducts <a href="seminars.html">frequent seminars</a> on topics dealing with tax and estate planning, wealth preservation, tax dispute resolution and tax litigation for accountants and lawyers to keep you abreast of up-to-the-minute legislative reforms and <a href="decisions.html">recent decisions</a> which could have an impact on your clients. We also publish a monthly legal newsletter called the <a href="newsletters1.html">"Legal Business Report"</a> in order to provide you with our unique legal analysis and detailed research. </p>
+        <p>Alpert Law Firm conducts <a href="seminars.php">frequent seminars</a> on topics dealing with tax and estate planning, wealth preservation, tax dispute resolution and tax litigation for accountants and lawyers to keep you abreast of up-to-the-minute legislative reforms and <a href="decisions.php">recent decisions</a> which could have an impact on your clients. We also publish a monthly legal newsletter called the <a href="newsletters.php">"Legal Business Report"</a> in order to provide you with our unique legal analysis and detailed research. </p>
 
         <p> At Alpert Law Firm we strive to anticipate, understand and solve our clients' problems in a timely and cost-effective manner. We maintain regular contact with our clients and are always available to meet in person.</p>
         <footer>
-          <a href="index.html">Home</a> | <a href="ourteam.html">Our Team</a> | <a href="practice-areas.html">Practice Areas</a> | <a href="decisions.html">Decisions</a> | <a href="newsletters.html">Newsletters</a> | <a href="contact.html">Contact Us</a>
-          <span>Alpert Law Firm © 2017. All Rights Reserved.</span>
-          <span><a href="copyright.html">Copyright Information and Disclaimer</a> | <a href="privacy">Privacy Statement</a> | <a href="terms.html">Terms of Use</a></span>
+           <?php include("/includes/footer.php"); ?>
         </footer>
     </div>
     </section>

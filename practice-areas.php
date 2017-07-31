@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Alpert Law Firm - Our Team</title>
+  <title>Alpert Law Firm</title>
   <meta name="description" content="Alpert Law Firm achieves excellent results for our clients in tax planning, estate planning, tax litigation, corporate and commercial transactions as well as estate administration, trust administration, estate litigation and estate disputes. We act for a wide variety of clients ranging from individuals to large corporations and are based in Toronto, Ontario. We are the Tax Law Professionals with over 30 years experience in winning leading tax cases.  Alpert Law Firm conducts frequent seminars on tax and estate planning topics for accountants and lawyers and publishes a monthly legal newsletter called the Legal Business Report in order to provide you with our unique legal analysis and detailed research.">
   <meta name="author" content="Toronto, Ontario, Tax Litigation, Tax Planning, Lawyer, Tax Law, Estate Administration, Estate Disputes, Estate Litigation, Trust Administration, Corporate Law, Business Law, Seminar, Legal newsletter, legal business report, winning, leading cases, law firm, individual tax, personal tax, business tax, assessment, ccra, gst, pst, accountant, trial">
 
@@ -37,10 +37,10 @@
     <header>
       <div id="header-bg-img" class="row">
           <div class="four columns" id="logo"></div>
-          <div class="four columns" id="header-text">Our Team</div>
+          <div class="four columns" id="header-text">Practice Areas</div>
           <div class="four columns" id="contact">
             <div id="contact-button">
-              <a href="contact.html">
+              <a href="contact.php">
               CONTACT <br />
               Alpert Law Firm</a>
             </div>
@@ -49,57 +49,24 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <div class="row">
-          <div id="nav-elems"><a href="index.html">HOME</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="ourteam.html">OUR TEAM</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems-sub"><a href="howard_bio.html">Howard Alpert</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems-sub"><a href="vivian_bio.html">Vivian Xu</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems-sub"><a href="elizabeth_bio.html">Elizabeth White</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="practice-areas.html">PRACTICE AREAS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="decisions.html">DECISIONS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="newsletters.htl">NEWSLETTERS</a></div>
-        </div>
-        <div class="row">
-          <div id="nav-elems"><a href="seminars.html">SEMINARS</a></div>
-        </div>
+        <?php include("/includes/nav-practice-areas.php"); ?>
     </div>
      </nav>
     <section>
     <div class="seven columns" id="body-content">
-        <p><span class="bigletter">Axam</span>lpert Law Firm's Team is dedicated in providing high-quality legal services to serve the special needs of our clients and their accountants and other professional advisors.</p>
-
-        <p>Our Team strives to anticipate, understand and solve our clients problems in a timely and cost-effective manner. We maintain regular contact with our clients and are always available to meet in person.</p>
-
-           <p><a href="howard_bio.html">Howard Alpert, C.S.</a><br />
-          Certified Specialist (Corporate & Commercial Law)<br />
-          Certified Specialist (Estates and Trusts Law)</p>
-        
-           <p><a href="vivian_bio.html">Vivian Xu</a><br />
-          2018 J.D. Candidate<br />
-          Law Student</p>
-          
-           <p><a href="elizabeth_bio.html">Elizabeth White</a><br />
-          2018 J.D. Candidate<br />
-          Law Student</p>
+        <p>Alpert Law Firm specialises in the following areas:</p>
+        <ul>
+          <li><a href="corporate.php">Corporate and Commercial</a></li>
+          <li><a href="estateadmin.php">Estate Administration</a></li>
+          <li><a href="estateplanning.php">Estate Planning</a></li>
+          <li><a href="taxdispute.php">Tax Dispute Resolution</a></li>
+          <li><a href="taxlitigation.php">Tax Litigation</a></li>
+          <li><a href="taxplanning.php">Tax Planning</a></li>
+          <li><a href="wealth.php">Wealth Preservation</a></li>
+        </ul>
         
         <footer>
-          <a href="index.html">Home</a> | <a href="ourteam.html">Our Team</a> | <a href="practice-areas.html">Practice Areas</a> | <a href="decisions.html">Decisions</a> | <a href="newsletters.html">Newsletters</a> | <a href="contact.html">Contact Us</a>
-          <span>Alpert Law Firm © 2017. All Rights Reserved.</span>
-          <span><a href="copyright.html">Copyright Information and Disclaimer</a> | <a href="privacy">Privacy Statement</a> | <a href="terms.html">Terms of Use</a></span>
+           <?php include("/includes/footer.php"); ?>
         </footer>
     </div>
     </section>
