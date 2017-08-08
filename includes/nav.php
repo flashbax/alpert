@@ -11,7 +11,7 @@
   <div id="nav-elems"><a href="decisions.php">DECISIONS</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems"><a href="newsletters.htl">NEWSLETTERS</a></div>
+  <div id="nav-elems"><a href="newsletters.php">NEWSLETTERS</a></div>
 </div>
 <div class="row">
   <div id="nav-elems"><a href="seminars.php">SEMINARS</a></div>

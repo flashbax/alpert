@@ -142,8 +142,9 @@ section {
   text-align: justify;
   color: #003b65;
   margin-left: 35px;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 20px;
+  font-weight: normal;
 }
 
  #body-content a{ 
@@ -153,6 +154,10 @@ section {
  .bigletter{
     font-size: 20px;
  }
+
+ span { 
+  line-height: 0 !important;
+  }
 
 
 /* Footer
@@ -168,10 +173,20 @@ footer {
 footer span { 
   font-size: 12px !important;
   display: block;
+  line-height: 1.5em !important;
  }
-
 
 footer a { 
   color: #870038;
   text-decoration: none;
  }
+
+
+ /* Custom Pages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#bio-pic { 
+  width: 119px;
+  height: 179px; 
+  padding: 0 10px 10px 0;
+}

@@ -9,7 +9,7 @@
     <header>
       <div id="header-bg-img" class="row">
           <div class="four columns" id="logo"></div>
-          <div class="four columns" id="header-text">Practice Areas</div>
+          <div class="four columns" id="header-text">Decisions</div>
           <div class="four columns" id="contact">
             <div id="contact-button">
               <a href="contact.php">
@@ -21,12 +21,12 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <?php include("/includes/nav-decisions.php"); ?>
+        <?php include("/includes/nav.php"); ?>
     </div>
      </nav>
     <section>
     <div class="seven columns" id="body-content">
-        <p>The following are recent <a href="taxlitigation.php">Tax Litigation</a> and <a href="estateadmin.php">Estate Administration</a> Court Decisions involving Alpert Law Firm. Click on the name of the decision to read it in PDF format. To get the free Adobe Acrobat Reader, <a href="https://get.adobe.com/reader/" target="_blank">click here</a>.</p>
+        <p><span class="bigletter">T</span>he following are recent <a href="taxlitigation.php">Tax Litigation</a> and <a href="estateadmin.php">Estate Administration</a> Court Decisions involving Alpert Law Firm. Click on the name of the decision to read it in PDF format. To get the free Adobe Acrobat Reader, <a href="https://get.adobe.com/reader/" target="_blank">click here</a>.</p>
 
         <p><strong><u>ESTATE ADMINISTRATION DECISIONS:</u></strong></p>
 
