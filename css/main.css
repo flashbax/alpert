@@ -102,6 +102,25 @@ nav {
   text-decoration: none;
   }
 
+#nav-elems-on {
+  background-color: #003b65;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #fff;
+  font-size: 14px;
+  font-family: 'Fjalla One', sans-serif;
+  }
+
+#nav-elems-on a {  
+  background-color: #003b65; 
+  display: block; 
+  text-decoration: none;
+  color: #fff;
+  text-indent: 10px;
+  }
+
+
 #nav-elems-sub {
   background-color: #870038;
   box-sizing: border-box;
@@ -130,6 +149,27 @@ nav {
   -webkit-box-sizing: border-box;
   border: 1px solid #850037;
   }
+
+
+#nav-elems-sub-on {
+  background-color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #870038;
+  font-size: 14px;
+  font-family: 'Fjalla One', sans-serif;
+  }
+
+#nav-elems-sub-on a {  
+  background-color: #fff;
+  display: block; 
+  text-decoration: none;
+  color: #870038;
+  text-indent: 10px;
+  }
+
+ 
 
 /* Body
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

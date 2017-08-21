@@ -11,7 +11,7 @@
   <div id="nav-elems-sub"><a href="vivian_bio.php">Vivian Xu</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems-sub"><a href="elizabeth_bio.php">Elizabeth White</a></div>
+  <div id="nav-elems-sub-on"><a href="elizabeth_bio.php">Elizabeth White</a></div>
 </div>
 <div class="row">
   <div id="nav-elems"><a href="practice-areas.php">PRACTICE AREAS</a></div>

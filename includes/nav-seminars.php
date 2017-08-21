@@ -14,5 +14,5 @@
   <div id="nav-elems"><a href="newsletters.php">NEWSLETTERS</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems"><a href="seminars.php">SEMINARS</a></div>
+  <div id="nav-elems-on"><a href="seminars.php">SEMINARS</a></div>
 </div>

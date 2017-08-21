@@ -8,7 +8,7 @@
   <div id="nav-elems-on"><a href="practice-areas.php">PRACTICE AREAS</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems-sub"><a href="corporate.php">Corporate and Commercial</a></div>
+  <div id="nav-elems-sub-on"><a href="corporate.php">Corporate and Commercial</a></div>
 </div>
 <div class="row">
   <div id="nav-elems-sub"><a href="estateadmin.php">Estate Administration</a></div>

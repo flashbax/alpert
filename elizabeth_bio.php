@@ -21,7 +21,7 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <?php include("/includes/nav-ourteam.php"); ?>
+        <?php include("/includes/nav-ourteam-elizabeth-white.php"); ?>
     </div>
      </nav>
     <section>

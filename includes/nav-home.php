@@ -1,5 +1,5 @@
 <div class="row">
-  <div id="nav-elems"><a href="index.php">HOME</a></div>
+  <div id="nav-elems-on"><a href="index.php">HOME</a></div>
 </div>	
 <div class="row">
   <div id="nav-elems"><a href="ourteam.php">OUR TEAM</a></div>

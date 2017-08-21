@@ -21,7 +21,7 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <?php include("/includes/nav-practice-areas.php"); ?>
+        <?php include("/includes/nav-practice-areas-estate-planning.php"); ?>
     </div>
      </nav>
     <section>

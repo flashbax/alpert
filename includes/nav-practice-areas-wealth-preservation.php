@@ -26,7 +26,7 @@
   <div id="nav-elems-sub"><a href="taxplanning.php">Tax Planning</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems-sub"><a href="wealth.php">Wealth Preservation</a></div>
+  <div id="nav-elems-sub-on"><a href="wealth.php">Wealth Preservation</a></div>
 </div>
 <div class="row">
   <div id="nav-elems"><a href="decisions.php">DECISIONS</a></div>

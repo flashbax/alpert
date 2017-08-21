@@ -8,7 +8,7 @@
   <div id="nav-elems"><a href="practice-areas.php">PRACTICE AREAS</a></div>
 </div>	
 <div class="row">
-  <div id="nav-elems"><a href="decisions.php">DECISIONS</a></div>
+  <div id="nav-elems-on"><a href="decisions.php">DECISIONS</a></div>
 </div>
 <div class="row">
   <div id="nav-elems"><a href="newsletters.php">NEWSLETTERS</a></div>

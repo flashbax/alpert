@@ -5,7 +5,7 @@
   <div id="nav-elems-on"><a href="ourteam.php">OUR TEAM</a></div>
 </div>
 <div class="row">
-  <div id="nav-elems-sub"><a href="howard_bio.php">Howard Alpert</a></div>
+  <div id="nav-elems-sub-on"><a href="howard_bio.php">Howard Alpert</a></div>
 </div>
 <div class="row">
   <div id="nav-elems-sub"><a href="vivian_bio.php">Vivian Xu</a></div>

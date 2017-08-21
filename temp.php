@@ -21,7 +21,7 @@
     </header>
     <nav>
     <div class="five columns" id="nav">
-        <?php include("/includes/nav.php"); ?>
+        <?php include("/includes/nav-home.php"); ?>
     </div>
     </nav>
     <section>
@@ -44,5 +44,7 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  
 </body>
 </html>
